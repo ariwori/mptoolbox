@@ -1,7 +1,7 @@
 <template>
   <at-tab-bar
     fixed
-    :tab-list="tabList2"
+    :tab-list="tabList"
     :current="current4"
     @click="handleClick(4, $event)"
   />
@@ -10,7 +10,6 @@
 <script lang="ts">
 import { defineComponent, reactive, ref, toRefs } from "vue";
 import { AtTabBar } from "taro-ui-vue3";
-import { Page, Panel, ExampleItem } from "@/components/index";
 
 import "./index.scss";
 
@@ -18,10 +17,7 @@ export default defineComponent({
   name: "TabbarDemo",
 
   components: {
-    AtTabBar,
-    Page,
-    Panel,
-    ExampleItem,
+    AtTabBar
   },
 
   setup() {
@@ -33,7 +29,7 @@ export default defineComponent({
       current5: 0,
     });
 
-    const tabList2 = ref([
+    const tabList = ref([
       { title: "预定", iconType: "add-circle"},
       { title: "记录", iconType: "clock" },
       { title: "我的", iconType: "user"},
@@ -45,7 +41,7 @@ export default defineComponent({
 
     return {
       ...toRefs(state),
-      tabList2,
+      tabList,
       handleClick,
     };
   },
