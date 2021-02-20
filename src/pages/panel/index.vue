@@ -39,6 +39,7 @@
     <nav-button
       to="back"
       btn-icon="chevron-left"
+      :style="{ bottom: `${bottomHeight}px` }"
     />
     <!-- E Body -->
   </view>

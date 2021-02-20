@@ -1,8 +1,8 @@
 {
-  "name": "taro-ui-vue3-demo",
+  "name": "dtdemo",
   "version": "1.0.0",
   "private": true,
-  "description": "A demo showcase of taro-ui-vue3",
+  "description": "dt toolbox.",
   "templateInfo": {
     "name": "default",
     "typescript": true,

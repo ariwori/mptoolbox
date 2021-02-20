@@ -100,6 +100,7 @@ const subpackages = [
 
 export default {
   pages: [
+    'pages/dty/index',
     'pages/index/index',
     'pages/panel/index',
     // theme
@@ -109,7 +110,7 @@ export default {
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',
-    navigationBarTitleText: 'Taro UI Vue3',
+    navigationBarTitleText: '大头工具箱',
     navigationBarTextStyle: 'black'
   }
 }

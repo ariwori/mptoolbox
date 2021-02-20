@@ -25,6 +25,7 @@
     <nav-button
       id="home"
       to="home"
+      :style="{ bottom: `${bottomHeight}px` }"
     />
   </view>
 </template>
