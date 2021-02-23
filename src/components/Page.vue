@@ -107,7 +107,7 @@ export default defineComponent({
   height: 180px;
 
   &__title {
-    position: relative;
+    // position: relative;
     height: 90px;
     color: #333;
     font-size: 40px;
